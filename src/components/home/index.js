@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import { Fieldset, PageContainer } from './homeStyles';
 import Select from 'react-select';
 
-// select -  https://www.cluemediator.com/how-to-get-selected-by-only-value-in-react-select
+//select -  https://www.cluemediator.com/how-to-get-selected-by-only-value-in-react-select
 //checkbox - https://www.cluemediator.com/search?q=checkbox
 //radiobuttony - https://www.cluemediator.com/how-to-use-radio-buttons-in-react
 
@@ -158,6 +158,7 @@ function calcTridaZpatecni(){
   return (
       <PageContainer>
         <Fieldset>
+          <h1>Objednávka letenek</h1>
           <h3>Vyberte destinaci:</h3>
       <Select
         placeholder="Destinace"

@@ -81,9 +81,10 @@ if (objednavka.koloGravel) { priceGravel = (objednavka.pocetGravel * 2500) };
     if (objednavka.nosic === 0.05) {
       thisFinalPrice += (thisBasePrice * 0.05);
     }
-    else if (objednavka.doprava === 0.10) {
+    else if (objednavka.nosic === 0.10) {
       thisFinalPrice += (thisBasePrice * 0.10);
     }
+ 
     
     setFinalPrice(thisFinalPrice);
     return thisFinalPrice;

@@ -1,6 +1,7 @@
 {
-  "name": "usereducer",
+  "name": "kolosalon",
   "version": "0.1.0",
+  "homepage":"https://www.stumi.eu/react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -9,7 +10,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "react-select": "^5.3.2",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
